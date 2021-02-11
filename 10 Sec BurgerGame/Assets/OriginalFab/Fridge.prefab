@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7735074770736270207
+--- !u!1 &7533962250831839735
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5233373460055514950}
-  - component: {fileID: 30161358559645017}
+  - component: {fileID: 7849706690805857979}
+  - component: {fileID: 5259622131194173927}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -17,27 +17,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5233373460055514950
+--- !u!4 &7849706690805857979
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735074770736270207}
+  m_GameObject: {fileID: 7533962250831839735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.0928936, y: -7.128516, z: 0}
+  m_LocalPosition: {x: 7.1317906, y: -0.7982595, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &30161358559645017
+--- !u!212 &5259622131194173927
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735074770736270207}
+  m_GameObject: {fileID: 7533962250831839735}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
