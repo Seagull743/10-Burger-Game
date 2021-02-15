@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452462923}
   - component: {fileID: 1452462924}
+  - component: {fileID: 5720615596804037236}
   m_Layer: 0
   m_Name: Checker
   m_TagString: Tomato
@@ -41,7 +42,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.46084815}
@@ -57,6 +58,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.2924767, y: 0.5228853}
   m_EdgeRadius: 0
+--- !u!114 &5720615596804037236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452462922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350b29f0960ab6241b353dbde3f0b100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aboveMeIs: 0
+  checkerAboveMe: {fileID: 0}
 --- !u!1 &4142281591389269217
 GameObject:
   m_ObjectHideFlags: 0

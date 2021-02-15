@@ -10,6 +10,7 @@ TagManager:
   - Lettuce
   - Patty
   - BottomBun
+  - onion
   layers:
   - Default
   - TransparentFX
