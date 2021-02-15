@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 578e29ca6f9634742a3d872b59d13270
+guid: 774f723f15ef7be409b6c461ac8d4cd4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1950684016909597323
-    second: Serve_0
+      213: 506052899616795411
+    second: Burger 1_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -164,13 +164,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Serve_0
+      name: Burger 1_0
       rect:
         serializedVersion: 2
-        x: 78
-        y: 349
-        width: 2341
-        height: 938
+        x: 0
+        y: 526
+        width: 1748
+        height: 1378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8abde837c8321b10800000000000000
-      internalID: 1950684016909597323
+      spriteID: 31b27375e6cd50700800000000000000
+      internalID: 506052899616795411
       vertices: []
       indices: 
       edges: []
