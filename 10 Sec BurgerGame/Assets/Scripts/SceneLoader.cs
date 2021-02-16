@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void BackToMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        SceneManager.LoadScene("StartMenu");
     }
 
     public void LoadGame()

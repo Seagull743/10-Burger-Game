@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SliderChanger : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class SliderChanger : MonoBehaviour
         if (timeRemaining <= 0)
         {
             timeRemaining = 0;
+            SceneManager.LoadScene("YouLose");
+
         }
         else if (timeRemaining > 0)
         {
