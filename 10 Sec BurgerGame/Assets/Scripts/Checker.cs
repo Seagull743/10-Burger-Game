@@ -5,38 +5,35 @@ using UnityEngine;
 
 public class Checker : MonoBehaviour
 {
-    public Ingredients aboveMeIs;
 
     public Checker checkerAboveMe;
-    
-    public void This()
-    {
-        aboveMeIs = Ingredients.bottomBun;
 
-    }
+    //private void OnEnable()
+    //{
+    //    MeshRenderer m = GetComponent<MeshRenderer>();
+    //    if(m != null)
+    //        m.enabled = false;
+    //}
+
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        #region aboveMeis stuff
+        Debug.Log(gameObject.name + collision.gameObject.name);
 
-        #endregion
-
-        if(collision.gameObject.GetComponent<Checker>() != null)
+        if(collision.gameObject.GetComponent<BottomCheck>() != null)
         {
-            checkerAboveMe = collision.gameObject.GetComponent<Checker>();
-
-        }
-            
-
-
-
+            if (collision.gameObject.GetComponent<BottomCheck>().myChecker != null)
+            {
+                checkerAboveMe = collision.gameObject.GetComponent<BottomCheck>().myChecker;
+            }
+        }        
     }
 
 
-    private void OnTriggerExit(Collider other)
-    {
-        checkerAboveMe = null;
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    checkerAboveMe = null;
+    //}
 
 
 
