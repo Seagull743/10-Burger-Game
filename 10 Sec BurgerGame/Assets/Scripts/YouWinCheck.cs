@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class YouWinCheck : MonoBehaviour
 {
@@ -48,15 +49,14 @@ public class YouWinCheck : MonoBehaviour
         if (!burgerFail)
         {
             Debug.Log("it IS THE RIGHT BURGER");
-
-            //show win screen
+            SceneManager.LoadScene("YouWin");
 
         }
         else
         {
             Debug.Log("its not the same burger");
 
-            //show fail screen
+
         }
 
     }
